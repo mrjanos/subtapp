@@ -1,0 +1,27 @@
+{
+  "name": "subtapp",
+  "version": "1.0",
+  "description": "Drag and drop your movies on Subtapp and it will automatically download, rename and copy the subtitle next to your movie files.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "subtitles"
+  ],
+  "author": "mrjanos",
+  "license": "MIT",
+  "dependencies": {
+    "node-dir": "^0.1.11",
+    "opensubtitles-client": "^2.2.0"
+  },
+  "window": {
+    "toolbar": true,
+    "width": 768,
+    "height": 570,
+    "min_width": 768,
+    "min_height": 570,
+    "max_width": 768,
+    "max_height": 570
+  }
+}

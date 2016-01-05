@@ -1,0 +1,32 @@
+body {
+	margin-top: 50px;
+}
+
+#holder { 
+	width: 721px; height: 440px; margin: 20px auto;
+}
+/*
+#holder.hover { 
+	border: 10px dashed #333; 
+}*/
+
+.overlay
+ {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.15);
+	 background-image: url('../img/j.gif');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center; 
+     z-index: 9999;
+     color: white;
+     display: inline-block;
+ }
+ 
+#movieList.table tbody tr td {
+     vertical-align: middle;
+}
