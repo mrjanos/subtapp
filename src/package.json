@@ -16,7 +16,7 @@
     "opensubtitles-client": "^2.2.0"
   },
   "window": {
-    "toolbar": true,
+    "toolbar": false,
     "width": 768,
     "height": 570,
     "min_width": 768,
